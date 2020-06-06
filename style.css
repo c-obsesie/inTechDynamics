@@ -1,0 +1,178 @@
+/* 
+ background-image: linear-gradient(to right, #1c003b, #5216aa);
+ overlay :  background-image: linear-gradient(to right, #15002d, #3e1181);
+ on scroll left #15002d
+ on scroll right #3e1181
+font color:#1c003b 
+font IBMPlex sans medium*/
+
+/* Font family import  */
+@font-face {
+  font-family: IBMPlexSans-Medum;
+  src: url(/assets//font/IBMPlexSans-Medium.ttf);
+}
+/* General Settings  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+/* Navigation */
+.navbar {
+  background-image: linear-gradient(to right, #1c003b, #5216aa);
+  transition: all 0.5s ease;
+}
+.navbar-brand img {
+  height: 50px;
+}
+
+.small img {
+  height: 40px;
+}
+.scrolled {
+  background-image: linear-gradient(to right, #15002d, #3e1181);
+  transition-timing-function: ease-out;
+  transition: 0.25s;
+  transition: all 0.5s ease;
+}
+
+/* Section 1 */
+.wrapper-section-1 {
+  font-family: IBMPlexSans-Medum;
+  color: white;
+  margin-top: 54px;
+  padding: 8vh;
+  background-image: linear-gradient(to right, #1c003b, #5216aa);
+}
+.img {
+  max-width: 70%;
+  height: auto;
+}
+.imagine {
+  padding: 30px 0 30px 0;
+}
+.title {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+.text-title {
+  margin-bottom: 2rem;
+}
+
+/* Slick Carousel */
+.slider {
+  width: 50%;
+}
+
+.slick-slide {
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slide {
+  position: relative;
+  margin: 0;
+  text-align: right;
+  margin: 0 0 0 30px;
+  width: 500px;
+}
+
+/* Custom Arrows  */
+.prev-arrow {
+  position: absolute;
+  bottom: -50px;
+  left: 400px;
+  cursor: pointer;
+}
+
+.next-arrow {
+  right: 3px;
+  position: absolute;
+  bottom: -50px;
+  cursor: pointer;
+}
+
+/* Floating Animation */
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+/* Section 2  */
+
+.wrapper-section-2 {
+  margin-top: 15vh;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  height: 44vh;
+  font-family: IBMPlexSans-Medum;
+  color: #1c003b;
+
+}
+h2{font-size: 40px;}
+h3{font-size: 17px;}
+.item {
+  text-align: center;
+}
+.iconss {
+  margin: 0 auto;
+}
+
+.sectionCenter {
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* Footer */
+.wrapper-footer {
+  font-family: IBMPlexSans-Medum;
+  background-image: linear-gradient(to right, #1c003b, #5216aa);
+}
+
+.text-footer {
+  color: white;
+  text-align: center;
+}
