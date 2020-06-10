@@ -164,6 +164,7 @@ h3{font-size: 17px;}
   align-items: center;
   vertical-align: middle;
   justify-content: center;
+  padding:7vh;
 }
 
 /* Footer */
@@ -175,4 +176,24 @@ h3{font-size: 17px;}
 .text-footer {
   color: white;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide {
+    width: 300px;
+    margin: 0;
+}
+.prev-arrow {
+  position: absolute;
+  bottom: -50px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.next-arrow {
+  right: 3px;
+  position: absolute;
+  bottom: -50px;
+  cursor: pointer;
+}
 }
