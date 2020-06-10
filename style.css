@@ -64,16 +64,7 @@ font IBMPlex sans medium*/
 }
 
 /* Slick Carousel */
-.slider {
-  width: 50%;
-}
 
-.slick-slide {
-}
-
-.slick-slide img {
-  width: 100%;
-}
 
 .slick-prev:before,
 .slick-next:before {
@@ -99,6 +90,7 @@ font IBMPlex sans medium*/
   text-align: right;
   margin: 0 0 0 30px;
   width: 500px;
+  padding-bottom: 10px;
 }
 
 /* Custom Arrows  */
@@ -142,7 +134,9 @@ font IBMPlex sans medium*/
 /* Section 2  */
 
 .wrapper-section-2 {
-  margin-top: 15vh;
+  margin-top: 8vh 0 3vh 0;
+
+ 
   align-items: center;
   vertical-align: middle;
   justify-content: center;
@@ -201,4 +195,5 @@ h3{font-size: 17px;}
   bottom: -50px;
   cursor: pointer;
 }
+.slide{text-align: center;}
 }
