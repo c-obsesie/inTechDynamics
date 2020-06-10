@@ -183,6 +183,11 @@ h3{font-size: 17px;}
     width: 300px;
     margin: 0;
 }
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .prev-arrow {
   position: absolute;
   bottom: -50px;
